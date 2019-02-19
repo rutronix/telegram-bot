@@ -1,0 +1,23 @@
+{
+  "projectName": "streaming-hell",
+  "projectOwner": "bukhalo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "tafler",
+      "name": "taffik",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6934296?v=4",
+      "profile": "https://github.com/tafler",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
