@@ -1,5 +1,5 @@
-const axios = require('axios');
-const jsdom = require("jsdom");
+import axios from 'axios';
+import jsdom from 'jsdom';
 
 const getData = async ({ link }) => {
     try {
@@ -22,5 +22,5 @@ const getData = async ({ link }) => {
     }
 };
 
-module.exports = getData;
+export default getData;
 

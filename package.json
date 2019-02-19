@@ -3,6 +3,11 @@
   "version": "0.1.1",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "yarn build && NODE_ENV=production node dist/index.js",
+    "build": "rm -rf ./dist && NODE_ENV=production babel src/ -d dist",
+    "dev": "NODE_ENV=development nodemon --exec babel-node --inspect src/index.js"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^6.2.0",

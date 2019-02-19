@@ -1,8 +1,11 @@
-require('dotenv').config();
-const Telegraf = require('telegraf');
-const getData = require('./getData');
-const parseURL = require('./parseURL');
-const validator = require('validator');
+import dotenv from 'dotenv';
+import Telegraf from 'telegraf';
+import getData from 'getData';
+import parseURL from 'parseURL';
+import isURL from 'validator/lib/isURL';
+
+dotenv.config();
+
 const readableNames = {
     yandex: 'Yandex',
     spotify: 'Spotify',
@@ -32,7 +35,7 @@ bot.on('message', async (ctx) => {
     const urls = parseURL(message);
     if (message) {
         try {
-            if (validator.isURL(urls[0])) {
+            if (isURL(urls[0])) {
                 const sendLinks = async () => {
                     ctx.reply('🚬 Подождите немного, пока я ищу ссылки...');
                     const data = await getData({link: urls[0]});
