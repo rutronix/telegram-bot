@@ -2,8 +2,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 Telegram bot for share music with anyone no matter the platform
 
-# Donators
-- [@ekzotech](https://github.com/ekzotech) 200₽
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
@@ -15,3 +13,6 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+# Donators
+- [@ekzotech](https://github.com/ekzotech) 200₽
